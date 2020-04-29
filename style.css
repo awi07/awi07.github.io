@@ -1,0 +1,83 @@
+header {
+  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  background-size: cover; 
+  display:flex;
+  width: 100%;
+  height: 600px;
+  align-items:flex-end;
+}
+h1 {text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  color:#222; 
+  position: relative;
+  left: 250px;
+  font-size:40px;
+}
+.jmeno {
+  font-size:80px;
+  position: relative;
+  left: 200px;
+ }
+
+main {
+  font-size:20px;
+  margin: 0 auto;
+  width:1200px;
+  text-align: left;
+  color: #222 grey;
+  font-family: "Josefin Sans", sans-serif;
+}
+p, ul, h2, h3, h4 {
+  margin: 20px 100px;
+  line-height: 1.7em;
+}
+h2 {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 27px;
+  font-weight: bold;
+  padding-bottom: 0;
+  margin-botom: 0;
+  margin: 20px 50px 0 100px;
+}
+h4 {
+  font-size: 22px;
+  font-style: italic;
+  margin-top: 0;
+  padding-top: 0;
+}
+p, li {
+  font-size: 20px;
+}
+blockquote {
+  background-color: #222;
+  color: white;
+  font-size: 50px;
+  padding: 50px;
+  margin: 50px 40px;
+  position: relative;
+  font-family: "Merriweather", serif
+}
+blockquote::before {
+  content: '“';
+  display: block;
+  font-size: 90px;
+  font-weight: bold;
+  margin: 0;
+  height: 50px;
+  position: absolute;
+  top: -5px;
+  left: 0px
+}
+
+hr {
+  border: 2px solid #222;
+  margin: 60px 30px;
+}
+
+.vetsi {
+  font-size: 27px;
+}
